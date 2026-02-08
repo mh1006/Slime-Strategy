@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88cd3031a4c6dfe429dc0a07d66f8c5b, type: 3}
+  m_Name: E2KnightDialogue
+  m_EditorClassIdentifier: 
+  loadSceneAtEnd: 0
+  sceneToLoad: 
+  character: {fileID: -1526263116, guid: a95204fea1ebdc744bd1d1b0b401a0fd, type: 3}
+  dialogue:
+  - "Uhm, commander? \nI see an enemy Mage in the distance\u2026 "
+  - "Please don\u2019t let them hit me: \nmy shield cannot withstand magic. "
+  - "That Earth element to my left is also only\ngood against physical attacks. \nMagic
+    will bypass it. \n"
+  - 'However, I hear the Archer is confident against Mages.
+
+    Maybe they can handle
+    them?'

@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2146511541883429438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2146511541883429437}
+  - component: {fileID: 2146511541883429436}
+  - component: {fileID: 2146511541883429435}
+  m_Layer: 0
+  m_Name: BattleManager
+  m_TagString: BattleManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2146511541883429437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146511541883429438}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2146511541883429436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146511541883429438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7d70233fded894b8ade809f2d4bd59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleGrid: {fileID: 0}
+  nextScene: 
+  mouseSelectAction:
+    m_Name: Mouse Select
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 85cf1454-98c3-4ae5-9b0c-9b380c6da2c8
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: bc67362f-0834-40d9-8470-95e6e89373f4
+      m_Path: <Mouse>/leftButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Mouse Select
+      m_Flags: 0
+    m_Flags: 0
+  mouseContextAction:
+    m_Name: Mouse Context
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: d7300fd8-fee6-4792-999d-3f672d439a49
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 2958658e-2c76-4e1b-a5b5-e537a9bbcc51
+      m_Path: <Mouse>/rightButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Mouse Context
+      m_Flags: 0
+    m_Flags: 0
+  moveCameraLeftAction:
+    m_Name: Move Camera Left
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 24ea8bc2-83fd-4b77-9e59-9a3396ae1a02
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 68002da6-127f-4da6-b981-692774e55fad
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Camera Left
+      m_Flags: 0
+    m_Flags: 0
+  moveCameraRightAction:
+    m_Name: Move Camera Right
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 0d4804a0-818d-461a-af5f-8eaf55ed3033
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 34c55d03-857d-43f8-8507-1a5c19b1c214
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Camera Right
+      m_Flags: 0
+    m_Flags: 0
+  moveCameraForwardAction:
+    m_Name: Move Camera Forward
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 8586bf70-c2ce-4122-baef-0641b6e6d58c
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 0aba8925-52f1-4dd4-b244-707d854d5be9
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Camera Forward
+      m_Flags: 0
+    m_Flags: 0
+  moveCameraBackAction:
+    m_Name: Move Camera Back
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 007c926d-d1b5-455c-afa2-a27d86b01c87
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: a0f03770-fb73-468e-b9fd-cfce2c6c6ee1
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Camera Back
+      m_Flags: 0
+    m_Flags: 0
+  resetCameraAction:
+    m_Name: Reset Camera
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 9c2bbe73-3aa0-4da4-9db8-aa4da1516bec
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 18ecc7a4-bef3-49c4-8bcc-0544cb327893
+      m_Path: <Keyboard>/r
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Reset Camera
+      m_Flags: 0
+    m_Flags: 0
+--- !u!114 &2146511541883429435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146511541883429438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4ef464ab044640a48911cabb7e24b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleManager: {fileID: 2146511541883429436}

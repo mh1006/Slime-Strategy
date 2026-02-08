@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88cd3031a4c6dfe429dc0a07d66f8c5b, type: 3}
+  m_Name: E1SlimeKingDialogue
+  m_EditorClassIdentifier: 
+  loadSceneAtEnd: 0
+  sceneToLoad: 
+  character: {fileID: 21300000, guid: 45b0b6b8a3f6f284ba02de55e5de5e6e, type: 3}
+  dialogue:
+  - "My child, \nI have called you here for an urgent mission. "
+  - "It turns out that just as I lead you, \nthere is a man leading those humans."
+  - "They honour him with a title: \u2018king\u2019. \nTheir devotion is enshrined
+    in this shiny, \ngolden headpiece he wears \u2013 a \u2018crown\u2019. "
+  - "But clearly, there is someone worthier of \nthat title and that headgear: yours
+    truly."
+  - "From now on, I shall be known as the slime king. \nAnd although my nobility
+    is plain to see, \nI require the perfect hat to seal the deal."
+  - "Go get me that \u2018crown\u2019! \nI am a far truer king than he shall ever
+    be."

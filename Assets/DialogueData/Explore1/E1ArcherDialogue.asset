@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88cd3031a4c6dfe429dc0a07d66f8c5b, type: 3}
+  m_Name: E1ArcherDialogue
+  m_EditorClassIdentifier: 
+  loadSceneAtEnd: 0
+  sceneToLoad: 
+  character: {fileID: -1877435273, guid: b2619cb0ff7ef0b41b4fb6026b94863d, type: 3}
+  dialogue:
+  - "Oh, I can\u2019t wait to see you in action commander!"
+  - "I hear you can empower slimes by\n using the power of the elements?"
+  - "I see you\u2019ve got Fire and Air with you. \nGreat for power and mobility
+    respectively,\nbut we should be cautious of their drawbacks."
+  - "Though I\u2019m sure you\u2019ll figure out exactly \nwhen they should be used!"

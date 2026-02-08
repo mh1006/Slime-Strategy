@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"conventionalCommits.scopes": [
+			"unity packages",
+			"git",
+			"project",
+			"battleview",
+			"art"
+		],
+		"conventionalCommits.showEditor": true
+	}
+}

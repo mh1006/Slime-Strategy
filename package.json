@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "devDependencies": {
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-emoji": "^1.3.2-canary.2",
+    "husky": "^8.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    },
+    "cz-emoji": {
+      "types": [
+        {
+          "name": "feat",
+          "description": "A new feature",
+          "emoji": "✨",
+          "code": "feat:"
+        },
+        {
+          "name": "fix",
+          "description": "A bug fix",
+          "emoji": "🐛",
+          "code": ":bug:"
+        },
+        {
+          "name": "test",
+          "description": "Adding missing tests or correcting existing tests",
+          "emoji": "🚓",
+          "code": ":police_car:"
+        },
+        {
+          "name": "chore",
+          "description": "Other changes that don't modify src or test files",
+          "emoji": "🔩",
+          "code": ":nut_and_bolt:"
+        },
+        {
+          "name": "style",
+          "description": "Doesn't affect the meaning of the code (white-space, semi-colons, etc)",
+          "emoji": "🎨",
+          "code": ":art:"
+        },
+        {
+          "name": "docs",
+          "description": "Documentation only changes",
+          "emoji": "📚",
+          "code": ":books:"
+        },
+        {
+          "name": "refactor",
+          "description": "A code change that neither fixes a bug nor adds a feature",
+          "emoji": "♻️",
+          "code": ":recycle:"
+        },
+        {
+          "name": "perf",
+          "description": "A code change that improves performance",
+          "emoji": "⚡",
+          "code": ":zap:"
+        },
+        {
+          "name": "build",
+          "description": "Changes that affect the build system or external dependencies ($compile)",
+          "emoji": "🚀",
+          "code": ":rocket:"
+        },
+        {
+          "name": "ci",
+          "description": "Changes to CI configuration files and scripts ($arch)",
+          "emoji": "🚥",
+          "code": ":traffic_light:"
+        },
+        {
+          "name": "revert",
+          "description": "Reverts a previous commit",
+          "emoji": "⏪",
+          "code": ":rewind:"
+        }
+      ],
+      "scopes": [
+        "unity packages",
+        "git",
+        "project",
+        "battleview",
+        "art"
+      ]
+    }
+  }
+}
